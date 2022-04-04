@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 100%, 57%);
+    text-decoration: none;
+}
+
+.buyer {
+    color: rgb(172, 96, 172);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+
+.containerOne {
+    /**/
+    text-align: start;
+    display: flex;
+}
+
+.containerTwo {
+    margin-top: 10px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+}
+
+.principal {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.principal h1 {
+    color:rgb(90, 19, 148);
+    font-size: 3em;
+}
+
+.principal p {
+    color: rgb(143, 135, 135);
+    font-size: 1.5em;
+}
+
+.secondary {
+    width: 100%;
+    color:rgb(90, 19, 148);
+    display: flex;
+}
+
+.stars {
+    width: 100%;
+}
+
+.starsOne {
+    margin: 2% 2% 2% 4%;
+    width: 70%
+}
+
+.starsTwo {
+    margin: 2% 2% 2% 8%;
+    width: 75%
+}
+
+.starsThree {
+    margin: 2% 2% 2% 12%;
+    width: 80%
+}
+
+.starsOne, .starsTwo, .starsThree {
+    background-color:rgba(90, 19, 148, 0.062);
+    padding: 15px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.userDescription {
+    margin-left: 5%;
+}
+
+.userImg {
+    display: flex;
+    margin-bottom: 1%; 
+}
+
+.userOne {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.userTwo {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.userThree {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.userOne, .userTwo, .userThree {
+    margin-right: 15px;
+    background-color:rgba(105, 6, 145, 0.918);
+    border-radius: 8px 8px 8px 8px;
+    padding: 15px 25px;
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.userOne img, .userTwo img, .userThree img {
+    border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+    .containerOne, .containerTwo {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .containerTwo p {
+        text-align: start;
+    }
+
+    .principal p {
+        font-size: 1.2em;
+    }
+
+    .starsOne, .starsTwo, .starsThree {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px 0;
+    }
+
+    .userOne, .userTwo, .userThree {
+        margin: 15px 0 5px 0;       
+    }
+
+    .userDescription {
+        width: 100%;
+        text-align: start;
+    }
+
+}
